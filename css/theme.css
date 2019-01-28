@@ -6,8 +6,8 @@
   --color-neutral-beige: #f0fff0;
   --color-whatever: #e0eee0;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Abril Fatface", monospace;
 }
 
 html {
