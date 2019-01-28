@@ -2,4 +2,4 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.google.com/?query=Abril&selection.family=Abril+Fatface|Open+Sans"
+  font_url: "https://fonts.google.com/?category=Sans+Serif&selection.family=Noto+Sans|Open+Sans&query=Open"
