@@ -1,10 +1,10 @@
 :root {
   --color-primary: #7e913b;
   --color-primary-light: #9acd32;
-  --color-secondary: #6B8E23;
-  --color-accent: #90EE90;
+  --color-secondary: #6b8e23;
+  --color-accent: #90ee90;
   --color-neutral-beige: #f0fff0;
-  --color-whatever: #e0eee0;
+  --color-whatever: #000;
 
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Abril Fatface", monospace;
