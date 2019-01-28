@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #7e913b;
+  --color-primary: #6b8e23;
   --color-primary-light: #9acd32;
-  --color-secondary: #6b8e23;
-  --color-accent: #90ee90;
-  --color-neutral-beige: #f0fff0;
+  --color-secondary: #7e913b;
+  --color-accent: #fff8dc;
+  --color-neutral-beige: #cdc8b1;
   --color-whatever: #000;
 
   --font-primary: "Open Sans", sans-serif;
