@@ -13,3 +13,45 @@
 html {
   font-family: var(--font-primary);
 }
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+mark {
+  background-color: var(--color-neutral-beige);
+  color: var(--color-primary);
+}
+
+blockquote {
+  background-color: var(--color-neutral-beige);
+  color: var(--color-primary);
+}
+
+ul {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+ol {
+  font-family: var(--font-secondary);
+  color: var(--color-neutral-beige);
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+dl {
+  font-family: var(--font-secondary);
+  color: var(--color-accent);
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+}
