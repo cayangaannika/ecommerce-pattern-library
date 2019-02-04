@@ -16,8 +16,8 @@ patternbot:
       Abril Fatface was selected as the secondary typeface because of its elegant appearance. With the thin serifs and clean curves, this lends the font a refined
       touch which can relate to the delicateness and appeal of succulents. This font is to be used mostly for headings due to its decorative character.
     colors.primary: |
-      The primary colors selected respresent the colors found in nature. The darker green color is to be used for headings to tie in the brand logo and content.
-      The lighter green color will be used for the foreground and some buttons to achieve continuity of the nature tones.
+      The primary colors selected respresent the colors found in nature. The darker green color is to be used for some headings and foreground to make the brand logo and content.
+      The lighter green color will be used for some buttons to achieve continuity of the nature tones.
     colors.secondary: |
       The secondary color is a lighter and calmer green tone. To not overwhelm the eyes with just deep and bold greens, having a lighter green for the background will
       achieve a tranquil and calming effect to the website.
@@ -27,8 +27,9 @@ patternbot:
       which will complement the green colors well.
     colors.neutral: |
       The neutral color selected is more of an earthy beige tone which will continue the colors of nature.
-    colors:
-      background: (--color-secondary);
-      accent: (--color-accent);
-      patterns:
-        brand.logos: (--color-neutral-beige);
+  colors:
+    background: "--color-primary"
+    foreground: "--color-secondary"
+    accent: "--color-secondary"
+    patterns:
+      brand.logos: "--color-secondary"
