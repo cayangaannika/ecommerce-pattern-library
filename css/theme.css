@@ -1,13 +1,13 @@
 :root {
   --color-primary: #6b8e23;
-  --color-primary-light: #9acd32;
-  --color-secondary: #7e913b;
-  --color-accent: #fff8dc;
+  --color-primary-light: #9CBA7F;
+  --color-secondary: #E0EEE0;
+  --color-accent: #9BCD9B;
   --color-neutral-beige: #cdc8b1;
   --color-whatever: #000;
 
-  --font-primary: "Open Sans", sans-serif;
-  --font-secondary: "Noto Sans", sans-serif;
+  --font-primary: "Noto Sans", sans-serif;
+  --font-secondary: "Abril Fatface", sans-serif;
 }
 
 html {

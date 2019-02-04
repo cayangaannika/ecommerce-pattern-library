@@ -2,4 +2,16 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.google.com/?category=Sans+Serif&selection.family=Noto+Sans|Open+Sans&query=Open"
+  font_url: "https://fonts.google.com/?query=Noto&selection.family=Abril+Fatface|Noto+Sans"
+  title: Divine Succulents
+  description: |
+    A small local business that specializes in a wide selection of succulents. These plant babies are perfect for indoor aesthetics which can be
+    arranged in many different ways! Whether you're looking for a gift or just want to add some life into your space, these DIY terrariums are a
+    fun way to create your own mini landscape.
+  rationales:
+    typefaces.primary: |
+      Noto Sans was selected as the primary typeface because it has a consistent line thickness and height. This makes it easier for any readers to browse through
+      the content without straining the eyes. This font is to be used for most of the main body copy.
+    typefaces.secondary: |
+      Abril Fatface was selected as the secondary typeface because of its elegant appearance. With the thin serifs and clean curves, this lends the font a refined
+      touch which can relate to the delicateness and appeal of succulents. This font is to be used mostly for headings due to its decorative character. 
