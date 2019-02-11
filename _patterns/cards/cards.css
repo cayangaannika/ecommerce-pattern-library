@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: var(--color-secondary);
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: var(--color-primary);
+}
+
+.cards dl {
+  margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: inline-block;
+  width: 15em;
+  font-style: italic;
+  color: var(--color-primary);
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+  color: var(--color-primary);
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.cards a:hover {
+  background-color: #333;
+  color: var(--color-primary);
+}
