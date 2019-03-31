@@ -1,11 +1,10 @@
-.sign-in {
+.sign-up {
   background-color: white;
   color: var(--color-primary);
 }
 
 .bottom-nav {
   background-color: var(--color-primary);
-  text-align: center;
 }
 
 .credits {
