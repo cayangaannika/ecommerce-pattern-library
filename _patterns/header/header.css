@@ -16,7 +16,7 @@
   font-size: 1.35rem;
 }
 
-.masthead {
+.masthead-home {
   background-color: var(--color-secondary);
   font-family: "Abril Fatface", sans-serif;
   border-bottom: .3rem solid #bea59b;

@@ -1,17 +1,14 @@
-.footer-bottom-nav {
-  background-color: var(--color-primary);
-  color: #fff;
-}
-
 .sign-in {
   background-color: white;
   color: var(--color-primary);
 }
 
-.icon {
-  background-color: var(--color-primary);
-}
-
 .bottom-nav {
   background-color: var(--color-primary);
+  text-align: center;
+}
+
+.credits {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
 }
