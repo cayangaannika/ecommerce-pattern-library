@@ -5,9 +5,16 @@
 
 .bottom-nav {
   background-color: var(--color-primary);
+  display: inline-block;
+  width: 100%;
 }
 
 .credits {
   font-family: var(--font-primary);
   color: var(--color-secondary);
+}
+
+.sign-up {
+  display: inline-block;
+  width: 100%;
 }
