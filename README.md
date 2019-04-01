@@ -20,4 +20,4 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## Collaborators
 
-- []
+- [@lees3](https://github.com/lees3)
