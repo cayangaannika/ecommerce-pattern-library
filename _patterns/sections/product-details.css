@@ -1,0 +1,11 @@
+.materials {
+  color: var(--color-primary);
+}
+
+.title-product {
+  color: var(--color-primary);
+}
+
+.subtitle {
+  font-family: var(--font-secondary);
+}
