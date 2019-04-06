@@ -3,5 +3,5 @@ name: "Spiral Aloe"
 description: |
   Aloe polyphylla
 image: "/images/card-1.jpg"
-price: 25
+price: 30
 ---
