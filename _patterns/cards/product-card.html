@@ -1,9 +1,11 @@
-<div class="product-card text-center">
-  <img class="img-flex" src="{{include.data.image}}" alt="">
-  <div class="island-1-2">
-    <strong class="push-1-4 peta color-primary">${{include.data.price}}</strong>
-    <h2 class="push-1-4">{{include.data.title}}</h2>
-    <p class="push-1-2">{{include.data.desc}}</p>
-    {% pattern buttons/light text="Buy now" %}
-  </div>
-</div>
+<ul class="product-card">
+  <li>
+    <img class="img-flex" src="{{include.data.image}}" alt="">
+    <strong class="text-center">{{include.data.title}}</strong>
+    <dl class="text-center">
+      <dt>{{include.data.desc}}</dt>
+      <dt class="bold island-1-2">${{include.data.price}}</dt>
+    </dl>
+    {% pattern buttons/light text="Buy me" %}
+  </li>
+</ul>

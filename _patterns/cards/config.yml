@@ -1,5 +1,5 @@
 patterns:
-  succulents-card:
+  product-card:
     width: 400
     description: |
       The product card is used on the product listing page to display each available product.
