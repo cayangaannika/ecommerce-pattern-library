@@ -3,9 +3,12 @@
     <img class="img-flex" src="{{include.data.image}}" alt="">
     <strong class="text-center">{{include.data.title}}</strong>
     <dl class="text-center">
-      <dt>{{include.data.desc}}</dt>
-      <dt class="bold island-1-2">${{include.data.price}}</dt>
+      <dt>{{include.data.description}}</dt>
+      <dt class="bold">${{include.data.price}}</dt>
     </dl>
-    {% pattern buttons/light text="Buy me" %}
+    <div class="text-center">
+      {% pattern buttons/light text="Buy me" %}
+    </div>
+
   </li>
 </ul>
