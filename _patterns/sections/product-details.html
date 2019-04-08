@@ -1,16 +1,13 @@
 <div class="section-1">
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-      <img class="img-flex island" src="/images/card-1.jpg" alt="">
+      <img class="img-flex island" src="{{include.data.image}}" alt="">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island-2">
       <h2 class="title-product bold exa push-0">Divine Succulents</h2>
-      <h3 class="subtitle tera">Senecio Serpens</h3>
-      <h4 class="bold">$15</h4>
-      <p class="caption kilo">These plant babies are perfect for indoor aesthetics which can be
-      arranged in many different ways! Whether you’re looking for a
-      gift or just want to add some life into your space, these DIY
-      terrariums are a fun way to create your own mini landscape.</p>
+      <h3 class="subtitle tera">{{include.data.name}}</h3>
+      <h4 class="bold">${{include.data.price}}</h4>
+      <p class="caption kilo">{{include.data.additional}}</p>
       <h5 class="push-0">Materials included</h5>
       <nav>
         <ul class="materials milli">
@@ -29,7 +26,7 @@
           <option>Fish bowl</option>
         </select>
       </div>
-      <a class="btn" href="#">Add to cart</a>
+      <a class="btn" href="/checkout-form">Add to cart</a>
     </div>
   <div>
 </div>

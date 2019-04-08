@@ -36,3 +36,12 @@ patternbot:
     accent: "--color-secondary"
     patterns:
       brand.logos: "--color-secondary"
+
+collections:
+  products:
+    output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

@@ -5,7 +5,6 @@
 
 .bottom-nav {
   background-color: var(--color-primary);
-  display: inline-block;
   width: 100%;
 }
 

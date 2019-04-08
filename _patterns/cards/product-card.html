@@ -1,0 +1,13 @@
+<ul class="cards">
+  <li>
+    <img class="img-flex" src="{{include.data.image}}" alt="">
+    <strong class="text-center">{{include.data.title}}</strong>
+    <dl class="text-center">
+      <dt>{{include.data.description}}</dt>
+      <dt class="bold">${{include.data.price}}</dt>
+    </dl>
+    <div class="text-center">
+      {% pattern buttons/light text="Buy me" url=include.data.url %}
+    </div>
+  </li>
+</ul>
