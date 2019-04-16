@@ -3,9 +3,8 @@ name: "Senecio Serpens"
 description: |
   Blue Chalksticks
 additional: |
-  These evergreen monocarpic Sempervivums grow in beautiful, deep red clusters and have touches of green on the edges. Its thick leaves sustain it through long periods of drought.
-
-  They are also deer resistant, so planting them beside other prized plants can help deter them from being eaten.
+  This succulent is perfect for container gardens. These babies are great for
+  warmer temperatures. When exposed to lots of sun and heat, the tips of this plant turn purple.
 image: "/images/card-2.jpg"
 price: 25
 ---
